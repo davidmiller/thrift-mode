@@ -1,4 +1,4 @@
-;; thrift-mode.el ---Major mode for editing Thrift definition files
+;;; thrift-mode.el --- Major mode for editing Thrift definition files
 
 ;; Copyright (C) 2011 David Miller <david@deadpansincerity.com>
 ;; Author: David Miller <david@deadpansincerity.com>
@@ -23,7 +23,7 @@
 ;; Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 ;;
-;; Commentary:
+;;; Commentary:
 ;;
 ;; This mode provides an editing environment for Thrift IDL files
 ;; in Emacs.
