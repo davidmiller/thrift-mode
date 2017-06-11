@@ -157,7 +157,11 @@
         (indent-line-to 0)))))
 
 (defvar thrift-imenu-generic-expression
-  '(("service"   "^service \\(.*\\) ?{" 1))
+  '(("service"   "^service \\(.*\\) ?{" 1)
+    ("struct"    "^struct \\(.*\\) ?{" 1)
+    ("enum"      "^enum \\(.*\\) ?{" 1)
+    ("typedef"   "^typedef \\(.*\\) ?{" 1)
+    )
   "Imenu Regexps for thrift mode")
 
 ;;
